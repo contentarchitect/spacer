@@ -1,0 +1,30 @@
+{
+  "name": "@contentarchitect/spacer",
+  "version": "0.0.0",
+  "description": "Spacer block for ContentArchitect",
+  "main": "dist/spacer.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentarchitect/spacer.git"
+  },
+  "keywords": [
+    "spacer",
+    "divider",
+    "separator",
+    "sizer",
+    "blank"
+  ],
+  "author": "Cihad Paksoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contentarchitect/spacer/issues"
+  },
+  "homepage": "https://github.com/contentarchitect/spacer#readme",
+  "devDependencies": {
+    "rollup-plugin-vue": "^5",
+    "rollup-plugin-vue-inline-svg": "^1.1.1"
+  }
+}

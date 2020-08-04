@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table block for ContentArchitect</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@contentarchitect/editor/dist/ContentArchitect.css">
+	<link rel="stylesheet" href="../src/theme.extract.css">
+	<style>
+		body {
+			max-width: 800px;
+			margin: auto;
+			padding: 3em;
+		}
+	</style>
+</head>
+<body>
+
+	<content-architect>
+		<div data-block="Spacer">
+			<div style="height: 100px"></div>
+		</div>
+	</content-architect>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@contentarchitect/editor"></script>
+	<script src="spacer.js"></script>
+	<script>
+		ContentArchitect.Blocks.register(Spacer)
+	</script>
+</body>
+</html>
