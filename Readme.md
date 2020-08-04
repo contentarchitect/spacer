@@ -6,6 +6,7 @@ Spacer is a block for ContentArchitect editor. It is used to create spaces betwe
 ## Properties
 - Editor side rendering (no need JS on viewing)
 - Custom styles with class options
+- Ability to give maximum and minimum height
 
 ## Installation
 ### 1st Method
